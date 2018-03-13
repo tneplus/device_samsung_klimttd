@@ -34,6 +34,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 # Bootloader
 TARGET_OTA_ASSERT_DEVICE := klimtlte,klimttd
 
+# GPS-shims
+TARGET_LD_SHIM_LIBS := /system/bin/gpsd|libshim.so
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_deathly_klimttd_defconfig
 
