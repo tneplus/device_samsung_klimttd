@@ -11,7 +11,7 @@ PRODUCT_BRAND := samsung
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
 # Inherit more LineageOS stuff.
-$(call inherit-product, vendor/cm/config/telephony.mk)
+$(call inherit-product, vendor/lineage/config/telephony.mk)
 
 PRODUCT_NAME := lineage_klimttd
 PRODUCT_DEVICE := klimttd
